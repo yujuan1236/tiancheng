@@ -1,0 +1,118 @@
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+img{border:0}
+em,strong,th{font-style:normal;font-weight:normal}
+ol,ul,li{list-style:none}
+th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal;}
+table{font-size:inherit;font:100%}
+a{text-decoration:none;cursor:pointer;outline:none;}`
+a:hover{ text-decoration:underline;}
+input,select{font-size:12px}
+body{ font-size:12px;font-family:Microsoft Yahei,simsun;color:#000;}
+.clearfix{display:block}
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both}
+.clearfix{zoom:1}
+
+#header{ width:1000px; height:100px; margin:0 auto; position:relative;background: rgba(0, 0, 0, 0) url("header_bg-1.jpg"/*tpa=https://img2.tiancitycdn.com/portal/culture/images/header_bg.jpg*/) no-repeat scroll 200px 35px;}
+#header .logo{ position:absolute; left:6px; top:14px; width:160px; height:60px;}
+#header ul{ position:absolute; left:425px; top:0px; height:100px;}
+#header li{ width:115px; height:100px; float:left; border-left:1px solid #e4e4e4; position:relative;}
+#header li a{ position:absolute;  z-index:1; width:115px; height:95px;line-height:95px;  font-size:16px; color:#111111;  text-align:center;}
+#header li a:hover{ border-bottom:5px solid #f4f2f2; background:#f4f2f2; overflow:visible; z-index:2; text-decoration:none;}
+#header li a.current,#header li a.current:hover{ border-bottom:5px solid #b3dd11; background:transparent; overflow:visible; z-index:2; cursor:default;}
+#header li.home{ width:84px;}
+#header li.home a{ width:86px;}
+#header li.know{ border-right:1px solid #e4e4e4;}
+
+#banner{ width:100%;height:430px; /*background:url(https://img2.tiancitycdn.com/portal/culture/images/banner.jpg) no-repeat scroll top center;*/}
+
+#content{width:884px;margin:0 auto;padding:0 58px;}
+/*天成动态*/
+.news h2{font-size:18px;padding:50px 0 44px;}
+.news ul li{width:884px;color:#555555;font-size:14px;height:34px;line-height:34px;}
+.news ul li em{float:left;width:10px;}
+.news ul li a{color:#555555;/*width:830px;*/float:left;text-decoration:none;}
+.news ul li a:hover{text-decoration:underline;}
+.news ul li span{float:right;}
+.page{color:#555555;font-size:14px;text-align:center;padding:50px 0;}
+.page a{color:#555555;border:1px solid #d0d0d0;padding:0 5px;background:#e5e5e5;text-decoration:none;margin:0 4px;}
+.page span{padding:0 5px;margin:0 4px;}
+.page .currentPage , .page .page_ns{border:none;background:none;}
+/*人才招聘*/
+.recruit{color:#555555;font-size:14px;}
+.recruit h2{font-size:18px;padding:50px 0 28px;}
+.recruit .job{padding-bottom:50px;}
+.recruit .job h3{height:30px;font-size:14px;line-height:30px;background:url("open.png"/*tpa=https://img2.tiancitycdn.com/portal/culture/images/open.png*/) 860px center #f3f3f3 no-repeat;padding-left:10px;cursor:pointer;border-top:1px solid #fff;}
+.recruit .job .hover{background:url("close-1.png"/*tpa=https://img2.tiancitycdn.com/portal/culture/images/close.png*/) 860px center #f3f3f3 no-repeat;}
+.recruit .job p{padding:25px 0 35px;line-height:24px;display:none;margin-left:20px;}
+.recruit .map{position:relative;line-height:24px;height:450px;}
+.recruit .map p{padding-bottom:35px;margin-left:20px;}
+.recruit .map p a{color:#F00;}
+.recruit .map .line{border-top:1px solid #f3f3f3;width:430px;padding-top:35px;}
+.recruit .map img{position:absolute;top:80px;right:52px;}
+.ewm{width:186px;height:191px;background:url("ewm.png"/*tpa=https://img2.tiancitycdn.com/portal/culture/images/ewm.png*/) no-repeat;position:fixed;_position:absolute;top:60%;_top:expression(eval(document.compatMode &&	document.compatMode=='CSS1Compat') ? documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2:document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2); right:30px; z-index:9999;}
+.ewm span{position:absolute;right:0;top:0;width:22px;height:22px;cursor:pointer;}
+
+/*游戏下载*/
+#content.dLoad{padding-bottom:115px;}
+.dLoad h2{color:#707070;font-size:14px;padding:52px 0 15px;border-bottom:1px solid #f3f3f3;}
+.dLoad h2 a{color:#707070;}
+.dLoad h2 .on{color:#000;font-size:18px;}
+.dLoad h2 em{padding:0 6px;}
+
+.dLoad .title{width:100%;height:52px;line-height:52px;padding-bottom:15px;}
+.dLoad .title em{width:1px;background:#eeeeee;height:36px;float:left;margin-top:10px;}
+.dLoad .title a{float:left;border-bottom:1px solid #dcdcdc;font-size:18px;color:#888888;text-align:center;width:441px;position:relative;}
+.dLoad .title .on , .dLoad .title a:hover{border-bottom:3px solid #333333;color:#333333;}
+.dLoad .title a i{background:url("ico.jpg"/*tpa=https://img2.tiancitycdn.com/portal/culture/images/ico.jpg*/) no-repeat;position:absolute;}
+.dLoad .title .pc i{width:16px;height:19px;background-position:0 0;left:255px;top:15px;}
+.dLoad .title .web i{width:11px;height:19px;background-position:0 -26px;left:261px;top:15px;}
+.dLoad .title .pc.on i{background-position:-26px 0;}
+/*.dLoad .title .web.on i{background-position:-21px -26px;}*/
+
+.dLoad .dl_center{margin:24px 0;border-bottom:1px solid #f3f3f3;padding-bottom:24px;}
+.dLoad .dl_center .dlc_left{float:left;}
+.dLoad .dl_center .dlc_left img{width:181px;height:166px;}
+.dLoad .dl_center .dlc_right{float:left;margin-left:22px;width:660px;}
+.dLoad .dl_center .dlc_right h3{font-size:18px;font-weight:bold;height:50px;line-height:50px;}
+.dLoad .dl_center .dlc_right p{color:#555555;font-size:14px;line-height:24px;padding-bottom:20px;}
+.dLoad .dl_center .dlc_right a{width:100px;height:31px;margin-right:12px;line-height:31px;text-align:center;color:#555555;font-size:14px;display:inline-block;*display:inline;zoom:1;background:#f3f3f3;border:1px solid #e6e6e6;}
+.dLoad .dl_center .dlc_right a:hover{background:#e9e9e9;}
+.dLoad .webd{display:none;}
+
+/*动态详细*/
+#content.detail{padding-bottom:70px;}
+.detail h2{border-bottom:1px solid #d1d1d1;font-size:18px;text-align:center;height:47px;line-height:47px;padding-top:42px;}
+.detail .newsIntro{color:#999999;text-align:center;font-size:14px;padding:10px 0 26px;}
+.detail p{color:#555555;font-size:14px;line-height:24px;text-indent:2em;padding-bottom:25px;}
+.detail img{max-width:100%;margin:5px auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-wrap{ width:100%; border-top:1px solid #f4f4f4;}

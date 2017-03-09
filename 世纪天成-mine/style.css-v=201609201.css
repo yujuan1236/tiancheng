@@ -1,0 +1,390 @@
+@charset "gb2312";
+*,html{ background-attachment:inherit !important;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:14px/160% Microsoft Yahei,arial;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+em,i{font-style:normal;}
+ul,ol{list-style:none;}
+a{outline:none;text-decoration:none; color:#000;}
+fieldset,img{border:0;}
+img{vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+.none{display:none;}
+.pa{position:absolute;}
+.pr{position:relative;}
+.fl{float:left;}
+.fr{float:right;}
+.clf{clear:both;}
+.tahoma{font-family:tahoma;}
+.hdt{overflow:hidden; text-indent:-9999px;}
+.hd{overflow:hidden;}
+.mAuto{margin:0 auto;}
+.noborder{border:none;}
+
+p{ text-indent:2em;}
+h1{ text-indent:-9999em; overflow:hidden; height:0; line-height:0; overflow:hidden;}
+
+.header{width:100%; padding-top:100px; _padding-top:0;}
+.header .top{background:#fff; width:100%; height:100px; position:fixed; top:0; z-index:25;}
+.header .nav{width:1000px; overflow:hidden;}
+.header .nav .gohome{background:url("logo-3.jpg"/*tpa=http://www.tiancity.com/homepage/about/images/logo.jpg*/) no-repeat; width:316px; height:56px;float:left; margin:20px 0;}
+.header .nav ul{float:left; margin-left:138px; width:544px;border-left:1px #e4e4e4 solid;}
+.header .nav ul li{float:left; _width:20%; text-align:center;}
+.header .nav ul li a{display:block; font-size:16px;_font-size:12px; padding:0 25px; line-height:95px; height:100px; color:#000; border-right:1px #e4e4e4 solid;}
+.header .nav ul li.on a,.header .nav ul li a:hover{border-bottom:5px #b4de10 solid; height:95px;}
+.header .nav ul li a.noborder{border-right:none;}
+
+.header .ad_banner{background:url("banner.jpg"/*tpa=http://www.tiancity.com/homepage/about/images/banner.jpg*/) no-repeat top center; height:536px; width:100%;}
+
+.header .ad{height:256px; padding:40px 0; width:1000px;}
+.header .ad .mask{background:url("link_mask.png"/*tpa=http://www.tiancity.com/homepage/about/images/link_mask.png*/) no-repeat; width:58px; height:58px; z-index:20;}
+.header .ad .lt{top:40px; left:50%; margin-left:-515px;}
+.header .ad .rb{bottom:40px; right:50%; margin-right:-515px; background-position:-972px -198px;;}
+.header .ad ul{width:1000px; padding:15px 0; overflow:hidden;}
+.header .ad ul li{float:left;}
+.header .ad a{background:url("adpic.jpg"/*tpa=http://www.tiancity.com/homepage/about/images/adpic.jpg*/) no-repeat top center; width:311px; height:226px; float:left; position:relative;color:#fff; overflow:hidden;}
+.header .ad a:hover div{top:0;}
+.header .ad .aboutTC{background-position:0 0;}
+.header .ad .newsTC{background-position:-311px 0; margin:0 33px;}
+.header .ad .jobTC{background-position:-622px 0;}
+.header .ad a span{background:rgba(0,0,0,0.6);_background:#000;*background:#000;*background:#000 \9; position:absolute; bottom:0; width:100%; height:50px; line-height:50px;}
+
+.header .ad span i{width:23px; height:23px; background:url("ad_icon.png"/*tpa=http://www.tiancity.com/homepage/about/images/ad_icon.png*/) no-repeat; float:left; margin:14px 10px;}
+.header .ad .aboutTC span i{background-position:0 0;}
+.header .ad .newsTC span i{background-position:-23px 0;}
+.header .ad .jobTC span i{background-position:-46px 0;}
+
+.header .ad div i{width:62px; height:62px; background:url("ad_icon.png"/*tpa=http://www.tiancity.com/homepage/about/images/ad_icon.png*/) no-repeat; display:block; margin:0 auto 10px auto;}
+.header .ad .aboutTC div i{background-position:0 -23px;}
+.header .ad .newsTC div i{background-position:-62px -23px;}
+.header .ad .jobTC div i{background-position:-124px -23px;}
+.header .ad ul li div{width:311px; height:171px; top:256px; left:0; position:absolute; text-align:center; padding-top:55px;}
+.header .ad .aboutTC div{background:url("n_bg.png"/*tpa=http://www.tiancity.com/homepage/about/images/n_bg.png*/) no-repeat 0 0;}
+.header .ad .newsTC div{background:url("n_bg.png"/*tpa=http://www.tiancity.com/homepage/about/images/n_bg.png*/) no-repeat -311px 0;}
+.header .ad .jobTC div{background:url("n_bg.png"/*tpa=http://www.tiancity.com/homepage/about/images/n_bg.png*/) no-repeat -622px 0;}
+
+/*title*/
+.title{width:1000px; top:80px; left:50%; margin-left:-500px; z-index:10; position:absolute;}
+.title i{background:url("icon.png"/*tpa=http://www.tiancity.com/homepage/about/images/icon.png*/) no-repeat; width:52px; height:52px; float:left; display:block; margin:4px 10px 0 0;}
+.title h2{font-size:32px; padding-top:8px;}
+.title p{font-size:16px; line-height:200%; text-indent:0;}
+.about .title i{background-position:0 0;}
+.culture .title i{background-position:-52px 0;}
+.development .title i{background-position:-104px 0;}
+.life .title i{background-position:0 -52px;}
+.contact .title i{background-position:-52px -52px;}
+
+.main{max-width:100%; min-width:1000px; overflow:hidden;}
+
+.conbox{height:990px;}
+.pa50{top:50%; left:50%; position:absolute; background-position:top center;}
+.conbg{top:0; left:50%; margin-left:-960px; height:990px; width:1920px; z-index:8; overflow:hidden;}
+.opac{opacity:0.8; filter:alpha(opacity=80);}
+.z12{z-index:12;}
+
+.about,.culture,.development,.life,.contact{width:1000px; margin:0 auto; height:990px;}
+
+/*关于天成*/
+
+.about .bg{background:url("bg1.jpg"/*tpa=http://www.tiancity.com/homepage/about/images/bg1.jpg*/) top center no-repeat;}
+.about .con{height:990px; z-index:22;}
+.about .con a,.about .con p i,.about .con .btn a{width:174px; height:162px; background:url("game_icon.png-v=160912"/*tpa=http://www.tiancity.com/homepage/about/images/game_icon.png?v=160912*/) no-repeat; margin:-81px 0 0 -87px;}
+.about .con .mb{display:none;}
+.about .con .logo{background-position:-348px -324px;}
+.about .con .mh{background-position:0 0;}
+.about .con .cls{background-position:-174px 0;}
+.about .con .eve{background-position:-348px 0;}
+.about .con .az{background-position:-522px 0;}
+.about .con .lq{background-position:0 -162px;}
+.about .con .cs{background-position:-174px -162px;}
+.about .con .cs2{background-position:-348px -162px;}
+.about .con .kart{background-position:0 -324px;}
+.about .con .fs2{background-position:-174px -324px;}
+.about .con .mxd{background-position:-691px 0px;}
+.about .con .mkart{background-position:-696px -162px;}
+.about .con .zs{background-position:-696px -324px;}
+.about .con .xl{background-position:-867px 0;}
+.about .con .jh{background-position:-867px -160px;}
+.about .con .dmw{background-position:-696px -324px;}
+.about .con .mhm{background-position:-867px -160px;}
+.about .con .yzgj{background-position:-867px -324px;}
+
+.about .con .mh:hover{background-position:0 -486px;}
+.about .con .cls:hover{background-position:-174px -486px;}
+.about .con .eve:hover{background-position:-348px -486px;}
+.about .con .az:hover{background-position:-522px -486px;}
+.about .con .lq:hover{background-position:-0px -648px;}
+.about .con .cs:hover{background-position:-174px -648px;}
+.about .con .cs2:hover{background-position:-348px -648px;}
+.about .con .kart:hover{background-position:-0px -810px;}
+.about .con .fs2:hover{background-position:-174px -810px;}
+.about .con .mxd:hover{background-position:-691px -486px;}
+.about .con .mkart:hover{background-position:-696px -648px;}
+.about .con .zs:hover{background-position:-696px -810px;}
+.about .con .xl:hover{background-position:-867px -487px;}
+.about .con .jh:hover{background-position:-867px -647px;}
+.about .con .dmw:hover{background-position:-696px -810px;}
+.about .con .mhm:hover{background-position:-867px -646px;}
+.about .con .yzgj:hover{background-position:-867px -812px;}
+
+.about .con p{width:90%; margin:0 auto;}
+.about .con p i{width:28px; height:23px;}
+.about .con .p1{padding:30px 30px 0 30px; bottom:220px;}
+.about .con .p2{padding:0 30px 30px 30px; bottom:130px;}
+.about .con .p1 i{top:0; left:0; background-position:-522px -324px; margin:0;}
+.about .con .p2 i{right:0; bottom:0; background-position:-550px -324px; margin:0;}
+
+.about .con .btn{width:99px; height:50px; margin:150px 0 0 -50px;}
+.about .con .btn a{float:left; width:48px; height:48px; margin:0; border:1px #e6e6e6 solid;}
+.about .con .btn a:hover,.about .con .btn .on{background-color:#3b3b3b;}
+.about .con .btn .pc_btn{background-position:-522px -349px; border-right:none;}
+.about .con .btn .mb_btn{background-position:-570px -349px;}
+.about .con .btn .pc_btn:hover,.about .con .btn #pc_btn.on{background-position:-522px -397px;}
+.about .con .btn .mb_btn:hover,.about .con .btn #mb_btn.on{background-position:-570px -397px;}
+
+/*企业文化*/
+.culture .con{height:990px; z-index:22; padding:190px 92px 0px 92px;}
+.culture .con span{width:212px; height:278px; float:left; background:url("about_btn.png"/*tpa=http://www.tiancity.com/homepage/about/images/about_btn.png*/) no-repeat top center; margin:0 30px;}
+.culture .con .b1{background-position:0 0;}
+.culture .con .b2{background-position:-212px 0;}
+.culture .con .b3{background-position:-424px 0;}
+.culture .bg{background:url("bg2.png"/*tpa=http://www.tiancity.com/homepage/about/images/bg2.png*/) center top no-repeat  #e6e6e6;}
+.culture .bg .office{background:url("slogn_bg.png"/*tpa=http://www.tiancity.com/homepage/about/images/slogn_bg.png*/) top center no-repeat; width:1920px; height:665px; margin:-170px 0 0 -960px;}
+.culture .bg .slogn{background:url("slogn.png"/*tpa=http://www.tiancity.com/homepage/about/images/slogn.png*/) top center no-repeat; width:773px; height:330px; margin:200px 0 0 -387px; left:30%;}
+
+/*公司历程*/
+.development .con{height:990px; z-index:22;}
+.development .con a{width:65px; height:79px; position:absolute; background:url("dev_ico.png"/*tpa=http://www.tiancity.com/homepage/about/images/dev_ico.png*/) no-repeat; color:#fff; text-align:center; line-height:65px;}
+.development .con a:hover,.development .con a.on{background-position:-65px 0;}
+.development .con .dev_p{width:80%; top:140px; left:63px;}
+.development .con .dev_p li{margin:10px 0;}
+.development .bg{background:#ffc92d;}
+.development .bg .city1{background:url("city1.png"/*tpa=http://www.tiancity.com/homepage/about/images/city1.png*/) no-repeat; width:1920px; height:674px; margin:-390px 0 0 -950px;}
+.development .bg .city2{background:url("city2.png"/*tpa=http://www.tiancity.com/homepage/about/images/city2.png*/) no-repeat; width:1934px; height:634px; margin:-363px 0 0 -967px;}
+.development .bg .floor{background:url("floor.png"/*tpa=http://www.tiancity.com/homepage/about/images/floor.png*/) no-repeat; width:1920px; height:603px; margin:-108px 0 0 -960px;}
+.development .bg .yun1{background:url("yun1.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun1.png*/) no-repeat; width:113px; height:50px; margin:-200px 0 0 -500px; animation:cloud 69s linear 0s infinite; -webkit-animation:cloud 69s linear 0s infinite; -moz-animation:cloud 69s linear 0s infinite; -ms-animation:cloud 69s linear 0s infinite;}
+.development .bg .yun2{background:url("yun2.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun2.png*/) no-repeat; width:137px; height:61px; margin:-320px 0 0 -67px; animation:cloud 99s linear 0s infinite; -webkit-animation:cloud 99s linear 0s infinite; -moz-animation:cloud 99s linear 0s infinite; -ms-animation:cloud 99s linear 0s infinite;}
+.development .bg .yun3{background:url("yun3.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun3.png*/) no-repeat; width:79px; height:42px; margin:-300px 0 0 600px; animation:cloud 36s linear 0s infinite; -webkit-animation:cloud 36s linear 0s infinite; -moz-animation:cloud 36s linear 0s infinite; -ms-animation:cloud 36s linear 0s infinite;}
+
+/*员工生活*/
+.life .bg{background:#1ac2ee;}
+.life .bg .white{background:#fff; height:88px; width:100%; margin:319px 0 0 -50%}
+.life .bg .grey{background:#e0e0e0; height:88px; width:100%; margin:407px 0 0 -50%}
+.life .bg .tree{background:url("tree.png"/*tpa=http://www.tiancity.com/homepage/about/images/tree.png*/) no-repeat; width:1657px; height:121px; margin:268px 0 0 -828px;}
+.life .bg .train{background:url("train.png"/*tpa=http://www.tiancity.com/homepage/about/images/train.png*/); width:624px; height:25px; margin:294px 0 0 -304px; animation:allobj 8s linear 0s infinite; -webkit-animation:allobj 8s linear 0s infinite; -moz-animation:allobj 8s linear 0s infinite; -ms-animation:allobj 8s linear 0s infinite;}
+.life .bg .yun{background:url("yun.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun.png*/) no-repeat; width:88px; height:56px; margin:110px 0 0 -44px; animation:cloud 36s linear 0s infinite; -webkit-animation:cloud 36s linear 0s infinite; -moz-animation:cloud 36s linear 0s infinite; -ms-animation:cloud 36s linear 0s infinite;}
+.life .bg .build{background:url("build.png"/*tpa=http://www.tiancity.com/homepage/about/images/build.png*/) no-repeat; width:1511px; height:353px; margin:30px 0 0 -755px;}
+.life .bg .girl{background:url("girl.png"/*tpa=http://www.tiancity.com/homepage/about/images/girl.png*/) no-repeat; width:39px; height:100px; margin:305px 0 0 -100px; /*animation:cloud 120s linear 0s infinite; -webkit-animation:cloud 120s linear 0s infinite; -moz-animation:cloud 120s linear 0s infinite; -ms-animation:cloud 120s linear 0s infinite;*/}
+.life .bg .boy{background:url("boy.png"/*tpa=http://www.tiancity.com/homepage/about/images/boy.png*/) no-repeat; width:128px; height:130px; margin:310px 0 0 100px; animation:allobj 69s linear 0s infinite; -webkit-animation:allobj 69s linear 0s infinite; -moz-animation:allobj 69s linear 0s infinite; -ms-animation:allobj 69s linear 0s infinite;}
+.life .bg .car{background:url("car.png"/*tpa=http://www.tiancity.com/homepage/about/images/car.png*/) no-repeat; width:169px; height:91px; margin:370px 0 0 -385px; animation:allobj 29s linear 0s infinite; -webkit-animation:allobj 29s linear 0s infinite; -moz-animation:allobj 29s linear 0s infinite; -ms-animation:allobj 29s linear 0s infinite;}
+.life .bg .yun0{background:url("yun0.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun0.png*/) no-repeat; width:179px; height:118px; margin:-100px 0 0 500px; animation:cloud 49s linear 0s infinite; -webkit-animation:cloud 49s linear 0s infinite; -moz-animation:cloud 49s linear 0s infinite; -ms-animation:cloud 49s linear 0s infinite;}
+
+.life .con{height:990px; z-index:22;}
+.life .con a{width:128px; overflow:hidden; height:146px; background:url("life_ico.png"/*tpa=http://www.tiancity.com/homepage/about/images/life_ico.png*/) no-repeat; position:absolute; top:50%; left:50%; margin:-73px 0 0 -64px; text-align:center; font-size:22px; color:#fff; line-height:140px;}
+.life .con a:hover,.life .con a.on{text-indent:-9999px;}
+.life .con .tourist{background-position:-304px 0;}
+.life .con .entertain{background-position:-9px 0; color:#000;}
+.life .con .offices{background-position:-156px 0;}
+
+.life .con #b1{margin:-283px 0 0 -286px;}
+.life .con #b2{margin:-283px 0 0 -138px;}
+.life .con #b3{margin:-283px 0 0 10px;}
+.life .con #b4{margin:-283px 0 0 158px;}
+.life .con #b5{margin:-153px 0 0 -360px;}
+.life .con #b6{margin:-153px 0 0 -212px;}
+.life .con #b7{margin:-153px 0 0 -64px;}
+.life .con #b8{margin:-153px 0 0 84px;}
+.life .con #b9{margin:-153px 0 0 232px;}
+.life .con #b10{margin:-23px 0 0 -286px;}
+.life .con #b11{margin:-23px 0 0 -138px;}
+.life .con #b12{margin:-23px 0 0 10px;}
+.life .con #b13{margin:-23px 0 0 158px;}
+
+.life .con #b1.on{background-position:0 -731px;}
+.life .con #b2.on{background-position:0 -439px;}
+.life .con #b3.on{background-position:0 -147px;}
+.life .con #b4.on{background-position:-128px -731px;}
+.life .con #b5.on{background-position:-128px -439px;}
+.life .con #b6.on{background-position:-131px -147px;}
+.life .con #b7.on{background-position:-256px -731px;}
+.life .con #b8.on{background-position:-256px -439px;}
+.life .con #b9.on{background-position:-259px -147px;}
+.life .con #b10.on{background-position:-384px -731px;}
+.life .con #b11.on{background-position:-384px -439px;}
+.life .con #b12.on{background-position:-387px -147px;}
+.life .con #b13.on{background-position:-512px -731px;}
+
+.life .con #b1:hover{background-position:0 -877px;}
+.life .con #b2:hover{background-position:0 -585px;}
+.life .con #b3:hover{background-position:0 -293px;}
+.life .con #b4:hover{background-position:-128px -877px;}
+.life .con #b5:hover{background-position:-128px -585px;}
+.life .con #b6:hover{background-position:-128px -293px;}
+.life .con #b7:hover{background-position:-256px -877px;}
+.life .con #b8:hover{background-position:-256px -585px;}
+.life .con #b9:hover{background-position:-256px -293px;}
+.life .con #b10:hover{background-position:-384px -877px;}
+.life .con #b11:hover{background-position:-384px -585px;}
+.life .con #b12:hover{background-position:-384px -293px;}
+.life .con #b13:hover{background-position:-512px -877px;}
+/*联系我们*/
+.contact .con{width:589px; height:325px; background:url("adr_bg.png"/*tpa=http://www.tiancity.com/homepage/about/images/adr_bg.png*/) no-repeat; margin:-360px 0 0 -200px}
+.contact .con p{padding:50px; text-indent:0;}
+.contact .con p span{font-size:18px; font-weight:bold;}
+.contact .bg{background:url("bg5.jpg"/*tpa=http://www.tiancity.com/homepage/about/images/bg5.jpg*/) no-repeat;}
+.contact .bg .yun1{background:url("yun1.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun1.png*/) no-repeat; width:113px; height:50px; margin:-80px 0 0 -250px; animation:cloud 49s linear 0s infinite; -webkit-animation:cloud 49s linear 0s infinite; -moz-animation:cloud 49s linear 0s infinite; -ms-animation:cloud 49s linear 0s infinite;}
+.contact .bg .yun2{background:url("yun2.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun2.png*/) no-repeat; width:137px; height:61px; margin:120px 0 0 650px; animation:cloud 99s linear 0s infinite; -webkit-animation:cloud 99s linear 0s infinite; -moz-animation:cloud 99s linear 0s infinite; -ms-animation:cloud 99s linear 0s infinite;}
+.contact .bg .yun3{background:url("yun3.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun3.png*/) no-repeat; width:79px; height:42px; margin:20px 0 0 -500px; animation:cloud 36s linear 0s infinite; -webkit-animation:cloud 36s linear 0s infinite; -moz-animation:cloud 36s linear 0s infinite; -ms-animation:cloud 36s linear 0s infinite;}
+.contact .bg .yun4{background:url("yun3.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun3.png*/) no-repeat; width:79px; height:42px; margin:260px 0 0 -21px; animation:cloud 69s linear 0s infinite; -webkit-animation:cloud 69s linear 0s infinite; -moz-animation:cloud 69s linear 0s infinite; -ms-animation:cloud 69s linear 0s infinite;}
+.contact .bg .yun5{background:url("yun3.png"/*tpa=http://www.tiancity.com/homepage/about/images/yun3.png*/) no-repeat; width:79px; height:42px; margin:80px 0 0 380px; animation:cloud 29s linear 0s infinite; -webkit-animation:cloud 29s linear 0s infinite; -moz-animation:cloud 29s linear 0s infinite; -ms-animation:cloud 29s linear 0s infinite;}
+.contact .bg .bus{background:url("bus.png"/*tpa=http://www.tiancity.com/homepage/about/images/bus.png*/) no-repeat; width:59px; height:38px; margin:200px 0 0 -30px; animation:bus 18s linear 0s infinite; -webkit-animation:bus 18s linear 0s infinite; -moz-animation:bus 18s linear 0s infinite; -ms-animation:bus 18s linear 0s infinite;}
+.contact .bg .car1{background:url("car1.png"/*tpa=http://www.tiancity.com/homepage/about/images/car1.png*/) no-repeat; width:28px; height:40px; margin:100px 0 0 430px;}
+
+
+
+/*云 匀速漂动 从右向左*/
+@keyframes cloud{
+	0%{transform:translateX(1600px);}
+	50%{transform:translateX(0px);}
+	100%{transform:translateX(-1600px);}
+}
+@-webkit-keyframes cloud{
+	0%{-webkit-transform:translateX(1600px);}
+	50%{-webkit-transform:translateX(0px);}
+	100%{-webkit-transform:translateX(-1600px);}
+}
+@-moz-keyframes cloud{
+	0%{-moz-transform:translateX(1600px);}
+	50%{-moz-transform:translateX(0px);}
+	100%{-moz-transform:translateX(-1600px);}
+}
+@-ms-keyframes cloud{
+	0%{-ms-transform:translateX(1600px);}
+	50%{-ms-transform:translateX(0px);}
+	100%{-ms-transform:translateX(-1600px);}
+}
+
+/*匀速漂动 从右向左*/
+@keyframes allobj{
+	0%{transform:translateX(-1500px);}
+	50%{transform:translateX(0px);}
+	100%{transform:translateX(1500px);}
+}
+@-webkit-keyframes allobj{
+	0%{-webkit-transform:translateX(-1500px);}
+	50%{-webkit-transform:translateX(0px);}
+	100%{-webkit-transform:translateX(1500px);}
+}
+@-moz-keyframes allobj{
+	0%{-moz-transform:translateX(-1500px);}
+	50%{-moz-transform:translateX(0px);}
+	100%{-moz-transform:translateX(1500px);}
+}
+@-ms-keyframes allobj{
+	0%{-ms-transform:translateX(-1500px);}
+	50%{-ms-transform:translateX(0px);}
+	100%{-ms-transform:translateX(1500px);}
+}
+
+/*公共汽车 从右向左*/
+@keyframes bus{
+	0%{transform:translateX(1200px) translateY(390px);}
+	40%{transform:translateX(0px) translateY(0px);}
+	50%{transform:translateX(0px) translateY(0px);}
+	100%{transform:translateX(-1200px) translateY(-390px);}
+}
+@-webkit-keyframes bus{
+	0%{-webkit-transform:translateX(1200px) translateY(390px);}
+	40%{-webkit-transform:translateX(0px) translateY(0px);}
+	50%{-webkit-transform:translateX(0px) translateY(0px);}
+	100%{-webkit-transform:translateX(-1200px) translateY(-390px);}
+}
+@-moz-keyframes bus{
+	0%{-moz-transform:translateX(1200px) translateY(390px);}
+	40%{-moz-transform:translateX(0px) translateY(0px);}
+	50%{-moz-transform:translateX(0px) translateY(0px);}
+	100%{-moz-transform:translateX(-1200px) translateY(-390px);}
+}
+@-ms-keyframes bus{
+	0%{-ms-transform:translateX(1200px) translateY(390px);}
+	40%{-ms-transform:translateX(0px) translateY(0px);}
+	50%{-ms-transform:translateX(0px) translateY(0px);}
+	100%{-ms-transform:translateX(-1200px) translateY(-390px);}
+}
+
+/*@keyframes devstart{
+	0%{opacity:0; transform:translateY(-20px);}
+	40%{opacity:0.6; transform:translateY(-15px);}
+	60%{opacity:0.7; transform:translateY(-18px);}
+	80%{opacity:0.8; transform:translateY(-12px);}
+	100%{opacity:1; transform:translateY(0px);}
+}
+@-webkit-keyframes devstart{
+	0%{opacity:0; -webkit-transform:translateY(-20px);}
+	40%{opacity:0.6; -webkit-transform:translateY(-15px);}
+	60%{opacity:0.7; -webkit-transform:translateY(-18px);}
+	80%{opacity:0.8; -webkit-transform:translateY(-12px);}
+	100%{opacity:1; -webkit-transform:translateY(0px);}
+}*/
+
+
+
+
+.contact .con{}
+.contact .con .adr{width:539px; height:275px; background:url("adr_bg.png"/*tpa=http://www.tiancity.com/homepage/about/images/adr_bg.png*/) no-repeat;top: -50px; left: 50%;margin: 0 0 0 -204px; padding:50px 0 0 60px;}
+
+.rightNav{position:fixed; right:0px; top:50%; margin-top:-204px; height:408px; width:82px; z-index:30; display:none;}
+.rightNav a{display:block; width:170px; height:32px; padding:20px 0; background:#6d9ad1; color:#fff; font-size:12px; position:absolute; top:0; left:0;}
+.rightNav .m0{top:0;}
+.rightNav .m1{top:72px;}
+.rightNav .m2{top:144px;}
+.rightNav .m3{top:216px;}
+.rightNav .m4{top:288px;}
+.rightNav .m5{top:360px;}
+.rightNav .m1,.rightNav .m3{background-color:#527db1;}
+.rightNav .m5{background-color:#1c1c1c; height:32px; padding:8px 0;}
+.rightNav a:hover{background:#b3dd11;}
+.rightNav .on{background:#b3dd11; left:-88px;}
+.rightNav a span{font-size:16px; display:block; float:left;}
+.rightNav a .en{font-size:12px; line-height:10px;}
+.rightNav i{float:left; width:32px; height:32px; background:url("icon.png"/*tpa=http://www.tiancity.com/homepage/about/images/icon.png*/) no-repeat; margin:0 26px;}
+.rightNav .m0 i{background-position:0 -108px;}
+.rightNav .m1 i{background-position:-32px -108px;}
+.rightNav .m2 i{background-position:-63px -108px;}
+.rightNav .m3 i{background-position:-96px -108px;}
+.rightNav .m4 i{background-position:-128px -108px;}
+.rightNav .m5 i{background-position:-160px -108px;}
+
+/*tips box*/
+.pic_show{width:900px; height:600px; display:none;}
+.pic_show a{background:url("close_btn.jpg"/*tpa=http://image.tiancity.com/player/images/close_btn.jpg*/) no-repeat; width:48px; height:48px; top:0; right:-48px; position:absolute; text-indent:-9999px;}
+
+.banner_div{height:430px;}
+.banner_div iframe{max-width:100%; min-width:1000px;}
+
+.sitemap li,.sitemap .promotion a.subnav,.sitemap .submap i,.wrap li a i,#others .news h2,#others .column h2 a.more,#others .news li,#others .recruitment li,#gamesList .prev,#gamesList .next,.detail a{ background:url("global-1.jpg"/*tpa=http://img2.tiancitycdn.com/portal/portalweb_v2/images/skin/global.jpg*/) no-repeat scroll;}
+#footer{ margin:0 auto; padding:35px 0 60px; width:980px; font-size:12px;}
+.copy-info{ color:#959595; float:left; font-family:simsun; width:520px;}
+.copy-info span{ font-family: Arial; font-size: 9px;}
+.copy-info p{ line-height: 1.4em; text-indent:0 !important;}
+.copy-standard{ background: url("footer_150703.jpg"/*tpa=http://img2.tiancitycdn.com/portal/portalweb_v2/images/skin/footer_150703.jpg*/) no-repeat scroll 0 0; color:#ffffff; float:right; height:52px; position:relative; width:368px;}
+.copy-standard a.zx110{ height:22px; left:43px; overflow:hidden; position:absolute; top:0; width:76px; padding:25px 0 0 58px; color:#001b75;}
+.copy-standard p{ left:198px; position:absolute; top:-1px; _top:3px; width:170px; _line-height:1em; text-indent:0 !important;}
+.copy-standard p *{ float:left;}
+.copy-standard a{ color:#ffffff; font-family:simhei; font-size:11px; height:14px; width:52px;}
+.copy-standard span{ font-family:simsun; font-size:11px; height:14px; padding:0 0 0 13px; width:105px;}
+.sitemap{ margin:0 0 12px;}
+.sitemap li{ float:left; width:78px; background-position:62px -370px;}
+.sitemap a{ color:#8b8b8b; font-family:Microsoft Yahei;}
+.sitemap a:hover{ text-decoration:underline;}
+.sitemap .promotion{width:98px; background-position:80px -370px; position:relative;}
+.sitemap .promotion a.subnav{ display:block; width:68px; background-position:53px -318px;}
+.sitemap .promotion a.subnav:hover{ background-position:53px -341px; color:#6d9ad1; text-decoration:none; font-weight:700;}
+.sitemap .submap{ position:absolute; left:-25px; top:-71px; height:71px; background:#FFF; display:none;}
+.sitemap .submap p{ width:99px; padding:2px 1px; border:1px solid #efefef;}
+.sitemap .submap a{ float:left; width:99px; height:22px; line-height:22px; text-align:center; color:#8b8b8b; font-family:simsun;}
+.sitemap .submap a:hover{ background:#6d9ad1; color:#FFF; text-decoration:none;}
+.sitemap .submap i{ position:absolute; left:45px; top:71px; width:11px; height:6px; overflow:hidden; background-position:-26px -318px;}
+.sitemap .on .submap{ display:block; z-index:23;}
